@@ -1,6 +1,6 @@
 ## TP-Zelda-vide - TP Zelda vide
 
-Le but du TP est de reproduire la page donnée. 
+Le but du TP est de reproduire le fichier donné dans img/resulat-attendu.jpg. 
 Toutes les images sont fournies.
 Les textes se trouvent ci-dessous.
 
