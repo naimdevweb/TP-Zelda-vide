@@ -42,9 +42,19 @@ nav items 24px
 
 Couleur dorée : #af966d
 
+Jaune : #ffc107
+
 */
 
-/* BACKGROUND */
+
+/*  INTERDICTION DE CREER DES CLASS POUR LES MARGES, UTILISEZ LES CLASS BOOTSTRAP EXISTANTES :
+    https://getbootstrap.com/docs/5.0/utilities/spacing/
+*/
+
+
+
+
+/* STYLES DES SECTIONS  */
 
 .dark {
     /* Image de fond : zelda-bg_pattern_brown.png */
@@ -54,39 +64,63 @@ Couleur dorée : #af966d
     /* Image de fond : zelda-bg_pattern_white.png */
 }
 
+
+
+
+/* MODAL */
+
+/* Ajouter le pattern zelda-bg_pattern_brown.png au background du modal */
+
+
+
+
 /* GRID CSS */
 
 .wrapper {
     
 }
   
- .sidebar {
+.bloc-a {
     
 }
   
-.content-1 {
+.bloc-b {
 
 }
   
-.content-2 {
+.bloc-d {
 
 }
   
-.content-3 {
+.bloc-c {
 
 }
+
+.bloc-f {
+    
+}
+
+.bloc-e {
+    
+}
   
-/* Bouton */
+
+
+/* BOUTONS */
 
 .btn {
    
 }
 
-/* Flexbox */
+
+
+/* FLEXBOX */
   
 .myFlex {
 
 }
+
+
 
 /******************/
 
