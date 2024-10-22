@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -231,16 +231,30 @@ right: -24px;
   color: white;
   margin-left: 60px;
 }
+.Texte1{
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: smaller;
+  margin-left: 60px;
+  padding-top: 20px;
+}
 strong{
   color:yellow
 }
 .Imagefond{
   background-image: url(/img/zelda-bg_pattern_brown.png);
   background-repeat: repeat;
-  
 }
 .Imageblanc{
   background-image: url(/img/zelda-bg_pattern_white.png);
   background-repeat: repeat;
+ 
+}
+.zeldaImage{
+  text-align: center;
+  padding-top: 20px;
+}
+.monTexte{
+  text-align: center;
 }
 
