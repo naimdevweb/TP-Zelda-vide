@@ -118,9 +118,31 @@ Jaune : #ffc107
   
 .myFlex {
 display: flex;
-
+align-items: center;
+background-color:  #af966d;
+}
+nav{
+  display: flex;
+  text-decoration: none;
+  font-size: larger;
+  margin-left: 20px;
 }
 
+a{
+  margin-left: 10%;
+  font-family: 'Medula One', cursive;
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  font-weight: 600;
+}
+
+.Title{
+  align-items: center;
+  margin-left: 30px;
+  font-family: 'Medula One', cursive;
+}
 
 
 /******************/
@@ -172,4 +194,8 @@ left: -24px;
 -webkit-transform: translateY(-50%) scaleX(-1);
         transform: translateY(-50%) scaleX(-1);
 right: -24px;
+}
+
+.colorListe{
+  color: rgb(65, 64, 64);
 }
