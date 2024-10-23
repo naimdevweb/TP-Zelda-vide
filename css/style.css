@@ -261,6 +261,7 @@ right: -24px;
 strong{
   color:yellow
 }
+
 .Imagefond{
   background-image: url(/img/zelda-bg_pattern_brown.png);
   background-repeat: repeat;
@@ -284,19 +285,117 @@ strong{
   text-align: center;
   padding-top: 20px;
 }
-.parent {
+
+
+.wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  }
-  
-  .div1 { grid-area: 1 / 1 / 3 / 2; }
-  .div2 { grid-area: 3 / 1 / 4 / 2; }
-  .div3 { grid-area: 3 / 2 / 4 / 4; }
-  .div4 { grid-area: 2 / 2 / 3 / 3; }
-  .div5 { grid-area: 2 / 3 / 3 / 4; }
-  .div6 { grid-area: 1 / 2 / 2 / 4; }
-  
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+}
+.three {
+  grid-column: 1;
+  grid-row: 2 / 5;
+}
+.four {
+  grid-column: 3;
+  grid-row: 3;
+}
+.five {
+  grid-column: 2;
+  grid-row: 4;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+
+.Image3{
+ display: flex;
+ gap: 5px;
+ justify-content: center;
+ margin-bottom: 50px;
+}
+.card {
+  display: grid;
+  grid-template-rows: max-content 30px ;
+  background-color: white;
+  flex-grow: 0;
+  width: 280px;
+  padding: 20px;
+ 
+}
+.card img {
+  width: 220px;
+  margin: auto;
+}
+
+.Titre3{
+  padding-top: 20px;
+}
+
+.Titre4{
+  padding-top: 50px;
+}
+
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  grid-auto-rows: minmax(100px, 300px);
+margin:auto;
+  max-width: 70vw;
+  max-height: 1000px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.wrapper > div > img {
+  object-fit:cover;
+  width: 100%;
+  height: 100%;
+}
+
+.bloc-a {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.bloc-b {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+}
+
+.bloc-c {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.bloc-d {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.bloc-e {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+.bloc-f {
+  grid-column: 2 / 4;
+  grid-row: 3 / 4;
+}
+
+
 
