@@ -237,7 +237,27 @@ right: -24px;
   font-size: smaller;
   margin-left: 60px;
   padding-top: 20px;
+  
 }
+
+  .Texte2{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: smaller;
+    margin-left: 60px;
+    padding-top: 20px;
+    color: white;
+  }
+
+  .Texte3{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: smaller;
+    margin-left: 60px;
+    padding-bottom: 50px;
+    color: white;
+  }
+
 strong{
   color:yellow
 }
@@ -257,4 +277,26 @@ strong{
 .monTexte{
   text-align: center;
 }
+.Titre{
+  padding-top: 30px;
+}
+.Titre2{
+  text-align: center;
+  padding-top: 20px;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+  .div1 { grid-area: 1 / 1 / 3 / 2; }
+  .div2 { grid-area: 3 / 1 / 4 / 2; }
+  .div3 { grid-area: 3 / 2 / 4 / 4; }
+  .div4 { grid-area: 2 / 2 / 3 / 3; }
+  .div5 { grid-area: 2 / 3 / 3 / 4; }
+  .div6 { grid-area: 1 / 2 / 2 / 4; }
+  
 
